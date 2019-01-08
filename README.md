@@ -25,7 +25,7 @@ Es werden max. 30 Lifte pro Bahn dargestellt, der Counter in der Custom Control 
 3 – Erstelle die `Lifter`-Komponente
 
 ```
-// declare the custom control
+// Initialisierung der Custom Control "Lifter"
 private Lifter cc;
 
 private void initializeControls() {
@@ -37,7 +37,7 @@ private void initializeControls() {
 
 4 – Aufsetzen der Bindings der Properties
 ```
-// all controls
+// Textfelder für die Eingabe
 private TextField dragLifts;
 private TextField chairLifts;
 private TextField gondolas;
