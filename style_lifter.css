@@ -1,0 +1,75 @@
+.lifter {
+    -fx-padding: 2;
+    -fx-background-color: rgb(255, 255, 255);
+    -base-color: rgb(255, 255, 255);
+}
+
+.lifter .background-circle {
+    -fx-fill: -base-color;
+}
+
+.lifter .display {
+    -fx-font-family: 'Lato Light';
+    -fx-font-size: 24;
+    -fx-fill: derive(-base-color, 90%);
+}
+
+.lifter .mountain--shade {
+    -fx-fill: linear-gradient(
+            from 25% 25% to 100% 100%, #ffffff, #CBCBCB);
+    -fx-stroke: #979797;
+    -fx-stroke-line-cap: round;
+}
+
+.lifter .mountain--white {
+    -fx-fill: #ffffff;
+    -fx-stroke: #979797;
+    -fx-stroke-line-cap: round;
+}
+
+.lifter .pole {
+    -fx-fill: #DCC49D;
+}
+
+.lifter .pole-circle {
+    -fx-fill: #DCC49D;
+}
+
+.lifter .line-path {
+    -fx-fill: transparent;
+    -fx-stroke: #787777;
+    -fx-stroke-width: 3;
+    -fx-stroke-dash-array: 16 16;
+    -fx-stroke-dash-offset: 24;
+    -fx-stroke-line-cap: round;
+}
+
+.lifter .stroke {
+    -fx-stroke: #787777;
+    -fx-stroke-width: 3;
+    -fx-stroke-line-cap: round;
+}
+
+.lifter .gondola-body {
+    -fx-fill: #D8D8D8;
+}
+
+.lifter .lift-connector {
+    -fx-fill: #F1F1F1;
+}
+
+.lifter .gondola-window {
+    -fx-fill: #CBF5FF;
+}
+
+.lifter .drag-lift-stroke {
+    -fx-fill: transparent;
+    -fx-stroke: #E39292;
+    -fx-stroke-width: 3;
+}
+
+.lifter .chair-lift-stroke {
+    -fx-fill: transparent;
+    -fx-stroke: #DECEAD;
+    -fx-stroke-width: 3;
+}
